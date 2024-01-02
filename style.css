@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('bg.png');
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+#ground {
+    width: 100%;
+    height: 90px;
+    position: absolute;
+    bottom: 0;
+}
+
+#character {
+    width: 41px;
+    height: 100px;
+    background-image: url('char.png');
+    background-size: contain;
+    position: absolute;
+    bottom: 90px;
+    right: calc(100% - 150px);
+}
+
+h2 {
+    font-family: 'Common Pixel', sans-serif;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.obstacle {
+    width: 30px;
+    height: 100px;
+    background-color: black;
+    bottom: 90px;
+    position: absolute;
+    right: 0;
+}
